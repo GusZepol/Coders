@@ -1,18 +1,14 @@
-Descripción del proyecto y presentación de cada miembro del equipo. 
+DescripciÃ³n del proyecto y presentaciÃ³n de cada miembro del equipo. 
 
 PROYECTO
 
-Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+Se propone analizar, diseÃ±ar y construir una aplicaciÃ³n software que permita controlar las ventas fÃ­sicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
 
-Sprint 1
+SPRINT 1
 
-1. Desarrollador - Juan Ángel Ortiz
-
-2. Analista del sistema - José Miguel Ortega Gaviria
-
+1. Desarrollador - Juan Ãngel Ortiz
+2. Analista del sistema - JosÃ© Miguel Ortega Gaviria
 3. Product Owner - Steven Duque
-
-4. Administrador de BD - Nícol Guerrero
-
-5. Scrum Master - Gustavo Lopez: Estudié inglés, me estoy preparando para el TOEFL. Trabajo para un Broker bilingüe de logística y transporte. Deseo estudiar programación para aplicarlo en el campo de la logística y transporte y luego emprender. 
+4. Administrador de BD - NÃ­col Guerrero
+5. Scrum Master - Gustavo Lopez: EstudiÃ© inglÃ©s, me estoy preparando para el TOEFL. Trabajo para un Broker bilingÃ¼e de logÃ­stica y transporte. Deseo estudiar programaciÃ³n para aplicarlo en el campo de la logÃ­stica y transporte y luego emprender. 
 
