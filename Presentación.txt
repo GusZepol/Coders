@@ -1,4 +1,4 @@
-NICOL ESTEFANIA GUERRERO GUTIERREZ:
+﻿NICOL ESTEFANIA GUERRERO GUTIERREZ:
 Tengo 18 años, vivo en Bogota, soy estudiante de ingenieria de sistemas y computacion en La Universidad Nacional de Colombia sede Bogota.
 Estoy en Mision TIC por que me gusta mucho la programacion y quiero aprender todo lo que se pueda respecto a ella, ya que quiero trabajar en desarrollo de sofware en un futuro espero que no muy lejano.
 
@@ -7,3 +7,5 @@ Mi nombre es José Miguel Ortega Gaviria, tengo 26 años y soy ingeniero electri
 egresado de la universidad nacional de Colombia, vengo de un municipio al sur occidente 
 de Nariño llamado Sandoná, siempre me ha interesado la programación , ese es el motivo de 
 mi ingreso y motivación por mision TIC
+
+Demo Gus (no se visualizan las ramas creadas por Steven y Gus en Git pero si en GitHub)
