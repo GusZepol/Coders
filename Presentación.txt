@@ -21,5 +21,12 @@ mi ingreso y motivación por mision TIC
 
 3. Product Owner - Steven Duque
 4. Administrador de BD - Nícol Guerrero
+
+Tengo 18 años, vivo en Bogota, soy estudiante de ingenieria de sistemas y computacion en
+La Universidad Nacional de Colombia sede Bogota.Estoy en Mision TIC por que me gusta mucho 
+la programacion y quiero aprender todo lo que se pueda respecto a ella, ya que quiero trabajar en desarrollo de sofware en un futuro espero que no muy lejano.
+
+
+
 5. Scrum Master - Gustavo Lopez: Estudié inglés, me estoy preparando para el TOEFL. Trabajo para un Broker bilingüe de logística y transporte. Deseo estudiar programación para aplicarlo en el campo de la logística y transporte y luego emprender. 
 
