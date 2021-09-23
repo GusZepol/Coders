@@ -7,6 +7,11 @@ Se propone analizar, diseñar y construir una aplicación software que permita c
 SPRINT 1
 
 1. Desarrollador - Juan Ángel Ortiz
+Tengo 17 años, soy de la ciudad de Neiva - Huila; Soy estudiante de ingeniería electrónica 
+en la universidad Surcolombiana. He ingresado en el mundo de la programación porque me parece
+un ámbito muy interesante de conocer; me gusta saber el por qué de las cosas, y poder crear 
+el por qué y el cómo de una app, página o software es todavía más entretenido.
+
 2. Analista del sistema - José Miguel Ortega Gaviria
 3. Product Owner - Steven Duque
 4. Administrador de BD - Nícol Guerrero
