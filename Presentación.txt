@@ -13,6 +13,12 @@ un ámbito muy interesante de conocer; me gusta saber el por qué de las cosas, 
 el por qué y el cómo de una app, página o software es todavía más entretenido.
 
 2. Analista del sistema - José Miguel Ortega Gaviria
+
+Mi nombre es José Miguel Ortega Gaviria, tengo 26 años y soy ingeniero electricista
+egresado de la universidad nacional de Colombia, vengo de un municipio al sur occidente 
+de Nariño llamado Sandoná, siempre me ha interesado la programación , ese es el motivo de 
+mi ingreso y motivación por mision TIC
+
 3. Product Owner - Steven Duque
 4. Administrador de BD - Nícol Guerrero
 5. Scrum Master - Gustavo Lopez: Estudié inglés, me estoy preparando para el TOEFL. Trabajo para un Broker bilingüe de logística y transporte. Deseo estudiar programación para aplicarlo en el campo de la logística y transporte y luego emprender. 
