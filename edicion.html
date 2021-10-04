@@ -5,26 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Edicion Informacion Usuario </title>
+    <title>Create Acount Usuario</title>
 </head>
 <body>
+    <header>
+        <h1>HEADER</h1>
+    </header>
+    <main>
     <section class="actualizar">
-        <h4>ACTUALIZACION DE DATOS DESDE ADMINISTRADOR</h4>
+        <h4>CREAR UNA CUENTA</h4>
+        <form>
         <label class="nombre" for="correo">Correo electronico</label>
-        <input class="cajas" type="text" name="correo" id="correo" placeholder="Correo electronico">
+        <input class="cajas" type="text" name="correo" placeholder="Correo electronico">
         <label class="nombre" for="nombre">Nombre</label>
-        <input class="cajas" type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <input class="cajas" type="text" name="nombre" placeholder="Nombre">
         <label class="nombre" for="apellido">Apellido</label>
-        <input class="cajas" type="text" name="apellido" id="apellido" placeholder="Apellido">
+        <input class="cajas" type="text" name="apellido" placeholder="Apellido">
         <label class="nombre" for="ciudad">Ciudad</label>
-        <input class="cajas" type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+        <input class="cajas" type="text" name="ciudad" placeholder="Ciudad">
         <label class="nombre" for="barrio">Barrio</label>
-        <input class="cajas" type="text" name="barrio" id="barrio" placeholder="Barrio">
+        <input class="cajas" type="text" name="barrio" placeholder="Barrio">
         <label class="nombre" for="contraseña">Contraseña</label>
-        <input class="cajas" type="text" name="contraseña" id="contraseña" placeholder="Contraseña">
-        <label class="nombre" for="metod de pago">Metodo de pago</label>
-        <input class="cajas" type="text" name="metod de pago" id="metodo de pago" placeholder="Metodo de pago">
-        <input class="boton" type="submit" value="ACTUALIZAR">
+        <input class="cajas" type="password" name="contraseña" placeholder="Contraseña">
+        <label class="nombre" for="confirmarContr">Confirmar Contraseña</label>
+        <input class="cajas" type="password" name="confirmarContr" placeholder="Confirmar contraseña">
+        <div class="check0">
+        <label class="nombre" for="ver">Ver contraseña</label>
+        <input class="check1" type="checkbox" name="ver">
+        </div>
+        <label class="nombre" for="numeromovil">Telefono Celular</label>
+        <input class="cajas" type="number" name="numeromovil" placeholder="Telefono Celular">
+        <button class="boton" type="submit">Crear Cuenta</button>
+        </form>
     </section>
+    </main>
+    <footer>
+        <h1>FOOTER DE LA PAGINA</h1>
+    </footer>
 </body>
 </html>

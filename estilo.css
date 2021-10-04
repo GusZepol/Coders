@@ -37,14 +37,23 @@ body{
     font-size: 16px;
     
 }
-.actualizar .boton{
+
+.boton{
     width: 100%;
     background:  rgb(243, 118, 16);
-    border: none;
+    border: 0;
     padding: 10px;
     color:black;
-    margin-top: 10px;
+    margin:0 auto;
     font-size: 18px;
     border-radius: 30px;
-
-}   
+}
+.check0{
+    display:flex;
+    justify-content:right;
+}
+.check1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
