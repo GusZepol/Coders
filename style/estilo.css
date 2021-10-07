@@ -10,6 +10,7 @@ ul{
 }
 .logo{
     height: 150px;
+
 }
 .logo:hover{
     cursor: pointer;
@@ -32,12 +33,22 @@ ul{
     font-weight: bolder;
     padding: 10px 40px;
 }
+.botongenerico1{
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bolder;
+    padding: 10px 40px;
+}
 .botongenerico:hover{
     cursor: pointer;
 }
 .mainboton{
     background-color: rgba(173, 169, 169, 0.603);
     color: black;
+}
+.mainboton1{
+    background-color: white;
+    color:white;
 }
 .mainboton:hover{
     box-shadow: 4px 4px gray;
@@ -47,6 +58,7 @@ body{
     display: block;
     margin: 0 auto;
 }
+
 .crearcuenta{
     width: 400px;
     background: white;
@@ -64,6 +76,7 @@ body{
     margin: 22px;
     text-align: center;
     font-family:sans-serif;
+    margin-bottom: 90px;
 }
 .cajas{
     width: 100%;
@@ -119,6 +132,7 @@ footer .barra-footer
 	padding-left: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+
 }
 
 footer .logo-footer
@@ -149,7 +163,7 @@ footer p
 .seccion
 {
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 }
 .container
 {
