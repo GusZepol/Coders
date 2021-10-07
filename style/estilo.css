@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px; 
+}
+.logo{
+    height: 180px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 60px 5px 60px;
+    background-color:white;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+.navbar > li {
+    display: flex;
+    align-items: center;
+}
+.botongenerico{
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bolder;
+    padding: 10px 40px;
+}
+.botongenerico:hover{
+    cursor: pointer;
+}
+.mainboton{
+    background-color: rgba(173, 169, 169, 0.603);
+    color: black;
+}
+.mainboton:hover{
+    box-shadow: 4px 4px gray;
+}
+body{
+    background:url(../media/hambur.jpg);
+    display: block;
+    margin: 0 auto;
+}
+.crearcuenta{
+    width: 400px;
+    background: white;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    box-shadow: 16px 20px 37px rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.crearcuenta h4{
+    font-size: 23px;
+    margin: 22px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.cajas{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px  solid gray;
+    font-size: 13px;
+    color: black;
+}
+.nombre{
+    padding: 5px;
+    font-size: 16px;
+    
+}
+
+.boton{
+    width: 100%;
+    background:  rgba(173, 169, 169, 0.603);
+    border: 0;
+    padding: 10px;
+    color:black;
+    margin:0 auto;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+.boton:hover{
+    box-shadow: 4px 4px gray;
+    cursor: pointer;
+}
+.check0{
+    display:flex;
+    justify-content:right;
+}
+.check1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
