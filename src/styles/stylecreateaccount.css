@@ -8,10 +8,10 @@ ul{
     padding: 0px;
     margin: 0px; 
 }
-.logo{
+.logo1{
     height: 150px;
 }
-.logo:hover{
+.logo1:hover{
     cursor: pointer;
 }
 .navbar{
