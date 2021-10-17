@@ -12,7 +12,7 @@ function CreateAccount(){
             </Link>
         </li>
         <li>
-            <img src={logo} alt="logo" class="logo" />
+            <img src={logo} alt="logo" class="logo1" />
         </li>
         <li>
             <button class="botongenerico mainboton">Información</button>

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import logo from '../media/LogoDuque.jpg';
 import comidafinicio from '../media/Comidafondoinicio.jpg';
 import img1 from '../media/Galeriaimagen1.jpg';
@@ -11,33 +12,59 @@ function Home(){
     return(
         <div>
 
-    <header>
-                <div className="container">
-                    <a href="index.html">   
-                        <img src={logo} className="logo" />
-                    </a>
-                    <nav>
-                        <a href="#Inicio">Inicio</a>
-                        <a href="#nosotros">Nosotros</a>
-                        <a href="#servicios">Servicios</a>
-                        <a href="#galeria">Galería</a>
-                        <a href="#contactenos">Contáctenos</a>
-                    </nav>
-                    <a href="#" className="hamb"><i><i className="fas fa-bars"></i></i></a>
-                </div>
-    </header>
+<header className='hedhome'>
+    <div className="container">
+            <img src={logo} className="logo" />
+    <nav>
+        <ul className="navbarH"> 
+            <li>
+            <Link to='createAccount'>
+            <p className='navH'> CreateAccount </p>
+            </Link>
+            </li>
+
+            <li>
+            <Link to='createAccount'>
+            <p className='navH'> Nosotros </p>
+            </Link>
+            </li>
+
+            <li>
+            <Link to='createAccount'>
+            <p className='navH'> Servicios </p>
+            </Link>
+            </li>
+
+            <li>
+            <Link to='createAccount'>
+            <p className='navH'> Galeria </p>
+            </Link>
+            </li>
+
+            <li>
+            <Link to='createAccount'>
+            <p className='navH'> Contactenos </p>
+            </Link>
+            </li>
+        </ul>    
+    </nav>
+    <a href="#" className="hamb"><i><i className="fas fa-bars"></i></i></a> 
+    </div>
+</header>
+
+
     <main>
-                <section id="inicio">
-                    <img src={comidafinicio} />
-                    <div className="bloque-inicio">
-                        <h1>!Bienvenidos a Sensazione¡</h1>
-                        <p>
-                        Disfruta de deliciosos platos a la carta, con un toque de 
-                        presentación, aroma, experiencia y una jugosa experiencia.
-                        </p>
-                        <a href="#nosotros" className="boton boton-rojo">Ver más</a>
-                    </div>
-                </section> 
+        <section id="inicio">
+            <img src={comidafinicio} />
+            <div className="bloque-inicio">
+                <h1>!Bienvenidos a Sensazione¡</h1>
+                <p>
+                    Disfruta de deliciosos platos a la carta, con un toque de 
+                    presentación, aroma, experiencia y una jugosa experiencia.
+                </p>
+                <a href="#nosotros" className="boton boton-rojo">Ver más</a>
+            </div>
+        </section> 
                 <section id="nosotros" className="seccion">
                     <div className="container">
                         <p>¡Con más de 20 años de experiencia en los múltiples ámbitos de la 
@@ -116,6 +143,9 @@ function Home(){
                     </div>
                 </section> 
     </main>
+
+
+
     <footer className="seccion">
                 <div className="container">
                     <div className="row">
@@ -150,23 +180,25 @@ function Home(){
                             <h3>
                                 Redes sociales
                             </h3>
-                            <ul className="redes-container">
-                                <li>
-                                    <a href="#" className="facebook">
-                                        <i className="fab fa-facebook-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="twitter">
-                                        <i className="fab fa-twitter-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="instagram">
-                                        <i className="fab fa-instagram-square"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div className="redes-container">
+                        <ul>
+                        <li>
+                        <a href="#" className="facebook">
+                            <i className="fab fa-facebook-square"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" className="twitter">
+                            <i className="fab fa-twitter-square"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" className="instagram">
+                            <i className="fab fa-instagram-square"></i>
+                        </a>
+                        </li>
+                        </ul>
+                        </div>
                         </div>
                     </div>
                 </div>
