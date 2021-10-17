@@ -1,26 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/estiloCreateAcount.css">
-    <link rel="shortcut icon" href="./media/LogoDuque.jpg" type="image/x-icon" />
-    <script src="https://kit.fontawesome.com/10ae6cbd18.js" crossorigin="anonymous"></script>
-    <title>Create Acount Usuario</title>
-</head>
-<body>
-    <header>
-        <ul class="navbar">
-            <li>
-                <button class="botongenerico mainboton">Volver</button>
-            </li>
-            <li>
-                <img src="./media/LogoDuque.jpg" alt="logo" class="logo" />
-            </li>
-            <li>
-                <button class="botongenerico mainboton">Información</button>
-            </li>
+import logo from '../media/LogoDuque.jpg';
+import {Link} from 'react-router-dom';
+function CreateAccount(){
+    return(
+        <div>
+
+<header>
+    <ul class="navbar">
+        <li>
+            <Link to='home'>
+            <button class="botongenerico mainboton">Volver</button>
+            </Link>
+        </li>
+        <li>
+            <img src={logo} alt="logo" class="logo" />
+        </li>
+        <li>
+            <button class="botongenerico mainboton">Información</button>
+        </li>
         </ul>
     </header>
     <main>
@@ -28,39 +24,37 @@
         <h4>CREAR UNA CUENTA</h4>
         <form>
         <label class="nombre" for="correo">Correo electronico</label>
-        <input class="cajas" type="text" name="correo" placeholder="Correo electronico">
+        <input class="cajas" type="text" name="correo" placeholder="Correo electronico"/>
         <label class="nombre" for="nombre">Nombre</label>
-        <input class="cajas" type="text" name="nombre" placeholder="Nombre">
+        <input class="cajas" type="text" name="nombre" placeholder="Nombre"/>
         <label class="nombre" for="apellido">Apellido</label>
-        <input class="cajas" type="text" name="apellido" placeholder="Apellido">
+        <input class="cajas" type="text" name="apellido" placeholder="Apellido"/>
         <label class="nombre" for="ciudad">Ciudad</label>
-        <input class="cajas" type="text" name="ciudad" placeholder="Ciudad">
+        <input class="cajas" type="text" name="ciudad" placeholder="Ciudad"/>
         <label class="nombre" for="barrio">Barrio</label>
-        <input class="cajas" type="text" name="barrio" placeholder="Barrio">
+        <input class="cajas" type="text" name="barrio" placeholder="Barrio"/>
         <label class="nombre" for="contraseña">Contraseña</label>
-        <input class="cajas" type="password" name="contraseña" placeholder="Contraseña">
+        <input class="cajas" type="password" name="contraseña" placeholder="Contraseña"/>
         <label class="nombre" for="confirmarContr">Confirmar Contraseña</label>
-        <input class="cajas" type="password" name="confirmarContr" placeholder="Confirmar contraseña">
+        <input class="cajas" type="password" name="confirmarContr" placeholder="Confirmar contraseña"/>
         <div class="check0">
         <label class="nombre" for="ver">Ver contraseña</label>
-        <input class="check1" type="checkbox" name="ver">
+        <input class="check1" type="checkbox" name="ver"/>
         </div>
         <label class="nombre" for="numeromovil">Telefono Celular</label>
-        <input class="cajas" type="number" name="numeromovil" placeholder="Telefono Celular">
+        <input class="cajas" type="number" name="numeromovil" placeholder="Telefono Celular"/>
         <button class="boton" type="submit">Crear Cuenta</button>
         </form>
     </section>
     </main>
 
-
-
     <footer class="seccion">
         <div class="container">
             <div class="row">
                 <div class="columna columna-25">
-                    <img src="./media/LogoDuque.jpg" class="logo-footer">
-                    <p>Disfruta de deliciosos platos a la carta,<br> con un toque de 
-                        presentación,<br> aroma, y una jugosa experiencia.</p>
+                    <img src={logo} class="logo-footer"/>
+                    <p>Disfruta de deliciosos platos a la carta,<br/> con un toque de 
+                        presentación,<br/> aroma, y una jugosa experiencia.</p>
                 </div>
 
                 <div class="columna columna-25">
@@ -80,7 +74,7 @@
                     <ul>
                         <li>https://github.com/GusZepol/Coders</li>
                         <li>+5755555555</li>
-                        <li>Calle 11 D Sur #11A-11 - Barrio xxxxxx<br>xxx-xxxx</li>
+                        <li>Calle 11 D Sur #11A-11 - Barrio xxxxxx<br/>xxx-xxxx</li>
                     </ul>
                 </div>
 
@@ -115,7 +109,7 @@
         </div>
     </footer>
 
-
-
-</body>
-</html>
+        </div>
+    );
+}
+export default CreateAccount;
