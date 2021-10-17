@@ -181,7 +181,7 @@ footer a
 
 .container
 {
-	width: 1140px;
+	width: 100%;
 	margin: 0 auto 0 auto;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -288,7 +288,7 @@ footer a
 
 #nosotros
 {
-	background-image: url(img/Galeria\ imagen\ 2.jpg);
+	background-image: url(../media/Galeriaimagen21.jpg);
 	background-size: cover;;
 
 }
@@ -306,10 +306,6 @@ footer a
 	border: 1px solid grey;
 }
 
-#servicios .bloque-servicio .bloque-img-servicio
-{
-
-}
 
 #servicios .bloque-servicio .bloque-img-servicio img
 {
@@ -332,10 +328,6 @@ footer a
 	font-size: 25px;
 }
 
-#galeria
-{
-
-}
 
 #galeria h4
 {
@@ -463,3 +455,7 @@ footer a
 .redes-container ul li .instagram:hover{
     background: var(--instagram);
 }
+.efecto:hover{
+	cursor: pointer;
+  }
+
