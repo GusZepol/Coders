@@ -10,7 +10,7 @@ import Menucomidas from 'components/menucomidas';
 
 function Cena(){
     return(
-<div className='bodyCena'>
+<div className='bodyAlmuerzo'>
    <header>
         <ul className="navbar">
             <li>
