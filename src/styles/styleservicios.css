@@ -1,19 +1,35 @@
+/*GENERAL*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 ul{
     list-style: none;
     padding: 0px;
     margin: 0px; 
 }
-.logo{
-    height: 150px;
+li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px; 
 }
-.logo:hover{
-    cursor: pointer;
+
+h1{
+    font-size: 23px;
+    margin: 22px;
+    text-align: center;
+    font-family:sans-serif;
 }
+
+
+/*FIN GENERAL*/
+
+
+/*HEADER*/
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -26,65 +42,80 @@ ul{
     display: flex;
     align-items: center;
 }
+
 .botongenerico{
     border: 0px;
     border-radius: 8px;
     font-weight: bolder;
     padding: 10px 40px;
 }
+
 .botongenerico:hover{
     cursor: pointer;
 }
+
 .mainboton{
     background-color: rgba(173, 169, 169, 0.603);
     color: black;
 }
+
 .mainboton:hover{
     box-shadow: 4px 4px gray;
 }
-body{
-    background-color: white;
-    display: block;
-    margin-bottom:0 auto;
+
+.logo{
+    height: 150px;
 }
-.productos{
-    width: 400px;
-    background: white;
-    border: 2px solid gray;
-    padding: 20px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 30px;
-    color: rgb(0, 0, 0);
-    box-shadow: 16px 20px 37px rgb(0, 0, 0);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.logo:hover{
+    cursor: pointer;
 }
-h1{
-    font-size: 23px;
-    margin: 22px;
-    text-align: center;
-    font-family:sans-serif;
-}
-.h1titu{
-    background-color:white;
-    border-bottom: 1px solid gray;
-}
-h2{
+
+/*FIN DEL HEADER*/
+
+
+/*MAIN*/
+
+.h2serv{
     font-size: 15px;
     margin: 22px;
     text-align: center;
     font-family:sans-serif;
 }
-.cajas{
-    width: 100%;
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    border: 2px  solid gray;
-    font-size: 13px;
-    color: black;
+
+.bodyserv{
+    background-color: white;
+    display: block;
+    margin-bottom:0 auto;
 }
+
+.h1titu{
+    background-color:white;
+    border-bottom: 1px solid gray;
+}
+
+.contenedorimgserv{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.contenedorimgserv > img{
+    object-fit: cover;
+    width: 80%;
+    border-radius: 50px;
+}
+.espacio{
+    margin-bottom: 40px;
+}
+.contenedorimgserv:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/*FIN DEL MAIN*/
+
 .nombre{
     padding: 5px;
     font-size: 16px;
@@ -106,15 +137,7 @@ h2{
     box-shadow: 4px 4px gray;
     cursor: pointer;
 }
-.check0{
-    display:flex;
-    justify-content:right;
-}
-.check1{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 9px;
-}
+
 footer
 {
 	background-color: black;
@@ -162,14 +185,7 @@ footer p
 	padding-bottom: 60px;
     
 }
-.container
-{
-	width: 100%;
-	margin: 0 auto 0 auto;
-	padding-right: 15px;
-	padding-left: 15px;
-	position: relative;
-}
+
 .row
 {
 	display: flex;
@@ -246,22 +262,5 @@ h3{
 .breedcardli{
     margin: 10px;
 }
-.contenedorimg{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-}
-.contenedorimg > img{
-    object-fit: cover;
-    width: 80%;
-    border-radius: 50px;
-}
-.espacio{
-    margin-bottom: 40px;
-}
-.contenedorimg:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-}
+
 
