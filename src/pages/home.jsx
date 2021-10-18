@@ -18,37 +18,37 @@ function Home(){
     <nav>
         <ul className="navbarH"> 
             <li>
-            <Link to='createAccount'>
+            <Link to='createAccount' className='a1'>
             <p className='navH'> CreateAccount </p>
             </Link>
             </li>
 
             <li>
-            <Link to='createAccount'>
+            <Link to='createAccount'  className='a1'>
             <p className='navH'> Nosotros </p>
             </Link>
             </li>
 
             <li>
-            <Link to='createAccount'>
+            <Link to='servicios'  className='a1'>
             <p className='navH'> Servicios </p>
             </Link>
             </li>
 
             <li>
-            <Link to='createAccount'>
+            <Link to='createAccount'  className='a1'>
             <p className='navH'> Galeria </p>
             </Link>
             </li>
 
             <li>
-            <Link to='createAccount'>
+            <Link to='createAccount'  className='a1'>
             <p className='navH'> Contactenos </p>
             </Link>
             </li>
         </ul>    
     </nav>
-    <a href="#" className="hamb"><i><i className="fas fa-bars"></i></i></a> 
+    <a href="#" className="hamb a1"><i><i className="fas fa-bars"></i></i></a> 
     </div>
 </header>
 
@@ -62,7 +62,7 @@ function Home(){
                     Disfruta de deliciosos platos a la carta, con un toque de 
                     presentación, aroma, experiencia y una jugosa experiencia.
                 </p>
-                <a href="#nosotros" className="boton boton-rojo">Ver más</a>
+                <a href="#nosotros" className="botonhome boton-rojo a1">Ver más</a>
             </div>
         </section> 
                 <section id="nosotros" className="seccion">
@@ -135,7 +135,7 @@ function Home(){
                                         <textarea name="mensaje" placeholder="Mensaje"></textarea>
                                     </div>
                                     <div className="form-block bloque-ultimo">
-                                        <input type="submit" className="boton boton-negro" value="Enviar"/>
+                                        <input type="submit" className="botonhome boton-negro" value="Enviar"/>
                                     </div>
                                 </form>
                             </div>
@@ -183,17 +183,17 @@ function Home(){
                         <div className="redes-container">
                         <ul>
                         <li>
-                        <a href="#" className="facebook">
+                        <a href="#" className="facebook a1">
                             <i className="fab fa-facebook-square"></i>
                         </a>
                         </li>
                         <li>
-                        <a href="#" className="twitter">
+                        <a href="#" className="twitter a1">
                             <i className="fab fa-twitter-square"></i>
                         </a>
                         </li>
                         <li>
-                        <a href="#" className="instagram">
+                        <a href="#" className="instagram a1">
                             <i className="fab fa-instagram-square"></i>
                         </a>
                         </li>

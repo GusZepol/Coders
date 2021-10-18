@@ -42,7 +42,7 @@ ul{
 .mainboton:hover{
     box-shadow: 4px 4px gray;
 }
-body{
+.bodyCreat{
     background:url(../media/hambur.jpg);
     display: block;
     margin: 0 auto;

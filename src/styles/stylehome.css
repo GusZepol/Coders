@@ -64,7 +64,7 @@ header .container .hamb{
 	margin-left: -200px;
 }
 
-.boton.boton-rojo
+.botonhome.boton-rojo
 {
 	background-color: black;
 	color: white;
@@ -73,7 +73,7 @@ header .container .hamb{
 	border-radius: 10%;
 }
 
-.boton.boton-rojo:hover
+.botonhome.boton-rojo:hover
 {
 	background-color: white;
 	color: black;
@@ -129,13 +129,13 @@ header .container .hamb{
 	margin-right: -15px;
 }
 
-body{
+.bodyhome{
 	font-family: "Roboto";
 	font-size: 13px;
 	color: black;
 }
 
-a{
+.a1{
 	display: inline-block;
 	text-decoration: none;
 }
@@ -198,7 +198,7 @@ footer a
 	color: white;
 }
 
-.boton
+.botonhome
 {
 	text-align: center;
 	text-decoration: none;
@@ -209,7 +209,7 @@ footer a
 
 
 
-.boton.boton-blanco
+.botonbotonhome.boton-blanco
 {
 	background-color: white;
 	color: red;
@@ -226,7 +226,7 @@ footer a
 	font-weight: bold;
 }
 
-.boton.boton-negro:hover
+.botonbotonhome.boton-negro:hover
 {
 	background-color: white;
 	color: black;
@@ -251,9 +251,6 @@ footer a
 	top: 0;
 	left: 0;
 }
-
-
-
 
 
 .columna
