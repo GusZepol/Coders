@@ -36,7 +36,7 @@ function Serviciospag() {
             <Servicios servicio='DESAYUNOS' imagen ={serv1} link={'home'} />
             </div>
             <div className=''>
-            <Servicios servicio='ALMUERZOS' imagen={serv2} link={'home'} />
+            <Servicios servicio='ALMUERZOS' imagen={serv2} link={'Almuerzo'} />
             </div>
             <div className='espacio'>
             <Servicios servicio='CENAS' imagen={serv3} link={'home'} />
