@@ -36,8 +36,8 @@ function Serviciospag() {
             <div className=''>
             <Servicios servicio='ALMUERZOS' imagen={serv2} link={'Almuerzo'} />
             </div>
-            <div className='espacio'>
-            <Servicios servicio='CENAS' imagen={serv3} link={'home'} />
+            <div className=''>
+            <Servicios servicio='CENAS' imagen={serv3} link={'Cena'} />
             </div>
         </ul>
     </section>

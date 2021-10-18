@@ -8,6 +8,7 @@ import Almuerzo from './pages/Almuerzo';
 import { BrowserRouter as Router, Switch, Route, Link  } from "react-router-dom";
 import Serviciospag from 'pages/servicios';
 import Desayuno from 'pages/desayunos';
+import Cena from 'pages/Cena';
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
     <div className="App">
         <Router>
             <Switch>
+              <Route path="/Cena">
+                <Cena />
+              </Route>
               <Route path="/desayunos">
                 <Desayuno />
               </Route>
