@@ -19,9 +19,23 @@ function Home(){
             <img src={logo} className="logo" />
     <nav>
         <ul className="navbarH"> 
+        <li>
+        <Navhome nombre='Ingresar' clase={'navH'} link={''} claselink={'a1'}/>
+            <ul className='submenu'>
 
+                <li className='desaparecermenu'>
+                    <Link>
+                    <span>Administrador</span>
+                    </Link>
+                </li>
+                <li className='desaparecermenu'>
+                    <Link to='ingresarvendedor'>
+                    <span>Vendedor</span>
+                    </Link>
+                </li>
+            </ul>
+        </li>
             <Navhome nombre='Crear cuenta' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
-            <Navhome nombre='Ingresar' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
             <Navhome nombre='Servicios' clase={'navH'} link={'servicios'} claselink={'a1'}/>
             <Navhome nombre='Galeria' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
             <Navhome nombre='Contactenos' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
