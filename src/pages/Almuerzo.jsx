@@ -15,7 +15,7 @@ function Almuerzo(){
 <div className='bodyAlmuerzo'>
    <header>
         <ul className="navbar">
-        <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+        <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'servicios'}/>
         
         <Logogeneral/>
 
@@ -25,10 +25,10 @@ function Almuerzo(){
     <main>
         <h1 className="h1titudesa">MENU ALMUERZOS</h1>
         <section className="contenido">
-            <Menucomidas servicio='HAMBURGUESA' precios='$15.000' imagen={imgHamburguesa} />
-            <Menucomidas servicio='PIZZA' precios='$30.000' imagen={imgPizza} />
-            <Menucomidas servicio='ENSALADA DE POLLO' precios='$12.000' imagen={imgEnsalada} />
-            <Menucomidas servicio='CARNE' precios='$22.000' imagen={imgCarne} />
+            <Menucomidas servicio='HAMBURGUESA' precios='$15000' imagen={imgHamburguesa} />
+            <Menucomidas servicio='PIZZA' precios='$30000' imagen={imgPizza} />
+            <Menucomidas servicio='ENSALADA DE POLLO' precios='$12000' imagen={imgEnsalada} />
+            <Menucomidas servicio='CARNE' precios='$22000' imagen={imgCarne} />
         </section>
     
     </main>

@@ -16,7 +16,7 @@ function Cena(){
 <div className='bodyAlmuerzo'>
    <header>
         <ul className="navbar">
-            <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+            <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'servicios'}/>
             
             <Logogeneral/>
 

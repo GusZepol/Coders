@@ -16,7 +16,7 @@ function Desayuno(){
    <header>
 
         <ul className="navbar">
-        <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+        <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'servicios'}/>
         
         <Logogeneral/>
 
@@ -29,8 +29,8 @@ function Desayuno(){
         <section className="contenido">
             <Menucomidas servicio='JUGOS' precios='$5000' imagen= {imgjugos} />
             <Menucomidas servicio='OJALDRAS' precios='$7000' imagen= {imgcaserola} />
-            <Menucomidas servicio='HUEVOS' precios='$10.000' imagen= {imghuevos} />
-            <Menucomidas servicio='FILETE' precios='$15.000' imagen= {imgCarne} />
+            <Menucomidas servicio='HUEVOS' precios='$10000' imagen= {imghuevos} />
+            <Menucomidas servicio='FILETE' precios='$15000' imagen= {imgCarne} />
         </section>
     
     </main>
