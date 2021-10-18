@@ -5,6 +5,8 @@ import serv2 from "../media/Almuerzo servicio 2.jpg";
 import serv3 from "../media/Cena servicio 3.jpg";
 import { Link } from 'react-router-dom';
 import Footerglobal from 'components/footer';
+import Navglobal from 'components/navGlobal';
+import Logogeneral from 'components/logogeneral';
 
 
 function Serviciospag() {
@@ -13,17 +15,13 @@ function Serviciospag() {
 
 <header>
     <ul className="navbar">
-        <li>
-            <Link to='home'>
-            <button className="botongenerico mainboton">Volver</button>
-            </Link>
-        </li>
-        <li>
-            <img src={logo} alt="logo" className="logo" />
-        </li>
-        <li>
-            <button className="botongenerico mainboton">Información</button>
-        </li>
+
+    <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+        
+    <Logogeneral/>
+
+    <Navglobal nombre='Información' clase={'botongenerico mainboton'} link={'home'}/>
+    
     </ul>
 </header>
 

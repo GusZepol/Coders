@@ -6,25 +6,23 @@ import imgCarne from '../media/carne.jpg';
 import {Link} from 'react-router-dom';
 import Footerglobal from 'components/footer';
 import Menucomidas from 'components/menucomidas';
+import Navglobal from 'components/navGlobal';
+import Logogeneral from 'components/logogeneral';
 
 
 function Desayuno(){
     return(
 <div className='bodyAlmuerzo'>
    <header>
+
         <ul className="navbar">
-            <li>
-                <Link to='servicios'>
-                <button className="botongenerico mainboton">Volver</button>
-                </Link>
-            </li>
-            <li>
-                <img src={logo} alt="logo" className="logo"/>
-            </li>
-            <li>
-                <button className="botongenerico mainboton">Información</button>
-            </li>
-            </ul>
+        <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+        
+        <Logogeneral/>
+
+        <Navglobal nombre='Información' clase={'botongenerico mainboton'} link={'home'}/>
+        </ul>
+
     </header>
     <main>
         <h1 className="h1titudesa">MENU DESAYUNOS</h1>
