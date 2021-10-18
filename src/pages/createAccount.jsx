@@ -1,25 +1,22 @@
-import logo from '../media/LogoDuque.jpg';
 import {Link} from 'react-router-dom';
 import Footerglobal from 'components/footer';
+import Navglobal from 'components/navGlobal';
+import Logogeneral from 'components/logogeneral';
 function CreateAccount(){
     return(
-        <div>
 
+<div>
 <header>
     <ul className="navbar">
-        <li>
-            <Link to='home'>
-            <button className="botongenerico mainboton">Volver</button>
-            </Link>
-        </li>
-        <li>
-            <img src={logo} alt="logo" className="logo1" />
-        </li>
-        <li>
-            <button className="botongenerico mainboton">Información</button>
-        </li>
-        </ul>
-    </header>
+
+        <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+        
+        <Logogeneral/>
+
+        <Navglobal nombre='NOSOTROS' clase={'botongenerico mainboton'} link={'home'}/>
+
+    </ul>
+</header>
     <main className='bodyCreat'>
     <section className="crearcuenta">
         <h4>CREAR UNA CUENTA</h4>
