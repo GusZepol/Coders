@@ -7,6 +7,7 @@ import img3 from '../media/Galeriaimagen3.jpg';
 import img4 from '../media/Galeriaimagen4.jpg';
 import img5 from '../media/Galeriaimagen5.jpg';
 import img6 from '../media/Galeriaimagen6.jpg';
+import Footerglobal from 'components/footer';
 
 function Home(){
     return(
@@ -19,13 +20,14 @@ function Home(){
         <ul className="navbarH"> 
             <li>
             <Link to='createAccount' className='a1'>
-            <p className='navH'> CreateAccount </p>
+            <p className='navH'> Crear Cuenta </p>
             </Link>
             </li>
+            
 
             <li>
             <Link to='createAccount'  className='a1'>
-            <p className='navH'> Nosotros </p>
+            <p className='navH'> Ingresar </p>
             </Link>
             </li>
 
@@ -146,65 +148,10 @@ function Home(){
 
 
 
-    <footer className="seccion">
-                <div className="container">
-                    <div className="row">
-                        <div className="columna columna-25">
-                            <img src={logo} className="logo-footer"/>
-                            <p>Disfruta de deliciosos platos a la carta,<br/> con un toque de 
-                                presentación,<br/> aroma, y una jugosa experiencia.</p>
-                        </div>
+    <footer>
 
-                        <div className="columna columna-25">
-                            <h3>
-                                Temas relacionados
-                            </h3>
-                            <ul>
-                                <li className="efecto">Iniciar Sesión</li>
-                                <li className="efecto">Nuestra Carta</li>
-                            </ul>
-                        </div>
+             <Footerglobal/>  
 
-                        <div className="columna columna-25">
-                            <h3>
-                                Datos de contacto
-                            </h3>
-                            <ul>
-                                <li>https://github.com/GusZepol/Coders</li>
-                                <li>+5755555555</li>
-                                <li>Calle 11 D Sur #11A-11 - Barrio xxxxxx<br/>xxx-xxxx</li>
-                            </ul>
-                        </div>
-
-                        <div className="columna columna-25">
-                            <h3>
-                                Redes sociales
-                            </h3>
-                        <div className="redes-container">
-                        <ul>
-                        <li>
-                        <a href="#" className="facebook a1">
-                            <i className="fab fa-facebook-square"></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#" className="twitter a1">
-                            <i className="fab fa-twitter-square"></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#" className="instagram a1">
-                            <i className="fab fa-instagram-square"></i>
-                        </a>
-                        </li>
-                        </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="barra-footer">
-                    &copy; DerechosReservados - 2021
-                </div>
     </footer> 
 
         </div>
