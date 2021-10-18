@@ -23,8 +23,7 @@ function Home(){
             <Navhome nombre='Crear cuenta' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
             <Navhome nombre='Ingresar' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
             <Navhome nombre='Servicios' clase={'navH'} link={'servicios'} claselink={'a1'}/>
-            <Navhome nombre='Galeria' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
-            <Navhome nombre='Contactenos' clase={'navH'} link={'createAccount'} claselink={'a1'}/>
+
         </ul>    
     </nav>
     <a href="#" className="hamb a1"><i><i className="fas fa-bars"></i></i></a> 
