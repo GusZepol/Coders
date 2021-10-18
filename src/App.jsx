@@ -10,7 +10,6 @@ import Serviciospag from 'pages/servicios';
 function App() {
   return (
     <div className="App">
-
         <Router>
             <Switch>
             <Route path="/createAccount">
