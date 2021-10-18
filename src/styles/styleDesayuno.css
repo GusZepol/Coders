@@ -44,7 +44,7 @@ body{
     background-image: url(../media/hambur.jpg);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.h2almuerzo{
+h2{
     font-weight: 300;
 }
 P{
@@ -172,9 +172,9 @@ h3{
 .redes-container ul li .instagram:hover{
     background: var(--instagram);
 }
-h1{
+.h1titudesa{
     text-align: center;
-    color:white;
+    color:black;
 }
 .contenido{
     margin: 0 auto;

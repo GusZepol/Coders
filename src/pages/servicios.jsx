@@ -33,7 +33,7 @@ function Serviciospag() {
         <h1 className="h1titu">Nuestros Productos</h1>
         <ul>
             <div className=''>
-            <Servicios servicio='DESAYUNOS' imagen ={serv1} link={'home'} />
+            <Servicios servicio='DESAYUNOS' imagen ={serv1} link={'desayunos'} />
             </div>
             <div className=''>
             <Servicios servicio='ALMUERZOS' imagen={serv2} link={'Almuerzo'} />

@@ -1,14 +1,14 @@
 import logo from '../media/LogoDuque.jpg';
-import imgHamburguesa from '../media/hambur.jpg';
-import imgPizza from '../media/pizza.jpg';
-import imgEnsalada from '../media/ensalada.jpg';
+import imgjugos from '../media/Galeriaimagen6.jpg';
+import imgcaserola from '../media/Desayuno servicio 1.jpg';
+import imghuevos from '../media/huevosdesayuno.jpg';
 import imgCarne from '../media/carne.jpg';
 import {Link} from 'react-router-dom';
 import Footerglobal from 'components/footer';
 import Menucomidas from 'components/menucomidas';
 
 
-function Almuerzo(){
+function Desayuno(){
     return(
 <div className='bodyAlmuerzo'>
    <header>
@@ -27,12 +27,12 @@ function Almuerzo(){
             </ul>
     </header>
     <main>
-        <h1 className="h1titudesa">MENU ALMUERZOS</h1>
+        <h1 className="h1titudesa">MENU DESAYUNOS</h1>
         <section className="contenido">
-            <Menucomidas servicio='HAMBURGUESA' precios='$15.000' imagen={imgHamburguesa} />
-            <Menucomidas servicio='PIZZA' precios='$30.000' imagen={imgPizza} />
-            <Menucomidas servicio='ENSALADA DE POLLO' precios='$12.000' imagen={imgEnsalada} />
-            <Menucomidas servicio='CARNE' precios='$22.000' imagen={imgCarne} />
+            <Menucomidas servicio='JUGOS' precios='$5000' imagen= {imgjugos} />
+            <Menucomidas servicio='OJALDRAS' precios='$7000' imagen= {imgcaserola} />
+            <Menucomidas servicio='HUEVOS' precios='$10.000' imagen= {imghuevos} />
+            <Menucomidas servicio='FILETE' precios='$15.000' imagen= {imgCarne} />
         </section>
     
     </main>
@@ -46,4 +46,4 @@ function Almuerzo(){
     </div>
     );
 }
-export default Almuerzo;
+export default Desayuno;
