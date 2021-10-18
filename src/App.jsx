@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Switch, Route, Link  } from "react-router-dom"
 import Serviciospag from 'pages/servicios';
 import Desayuno from 'pages/desayunos';
 import Cena from 'pages/Cena';
-import IngresarVendedor from 'pages/ingresarvendedor';
 
+import IngresarVendedor from 'pages/ingresarvendedor';
 
 
 function App() {
@@ -29,6 +29,9 @@ function App() {
               </Route>
               <Route path="/Almuerzo">
                 <Almuerzo />
+              </Route>
+              <Route path="/ingresarAdministrador">
+                <IngresarAdministrador />
               </Route>
               <Route path="/createAccount">
                 <CreateAccount />
