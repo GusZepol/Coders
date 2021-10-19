@@ -24,7 +24,7 @@ function Home(){
             <ul className='submenu'>
 
                 <li className='desaparecermenu'>
-                    <Link>
+                    <Link to='ingresarAdministrador'>
                     <span>Administrador</span>
                     </Link>
                 </li>

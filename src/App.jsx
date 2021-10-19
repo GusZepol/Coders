@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route, Link  } from "react-router-dom"
 import Serviciospag from 'pages/servicios';
 import Desayuno from 'pages/desayunos';
 import Cena from 'pages/Cena';
-
+import IngresarAdministrador from 'pages/ingresarAdministrador';
 import IngresarVendedor from 'pages/ingresarvendedor';
 
 
