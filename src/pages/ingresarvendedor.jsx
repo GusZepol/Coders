@@ -19,7 +19,7 @@ function IngresarVendedor(){
 </header>
     <main className='bodyCreat'>
     <section className="crearcuenta">
-        <h4>IGRESAR VENDEDOR</h4>
+        <h4>Ingresar como vendedor</h4>
         <form>
         <label className="nombre" for="correo">Correo electronico</label>
         <input className="cajas" type="text" name="correo" placeholder="Correo electronico"/>
@@ -33,7 +33,7 @@ function IngresarVendedor(){
         <input className="check1" type="checkbox" name="ver"/>
         </div>
         
-        <button className="boton" type="submit">INGRESAR</button>
+        <button className="boton" type="submit">Ingresar</button>
         </form>
     </section>
     </main>
