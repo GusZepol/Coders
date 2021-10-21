@@ -16,7 +16,7 @@ function Cena(){
 <div className='bodyAlmuerzo'>
    <header>
         <ul className="navbar">
-            <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'home'}/>
+            <Navglobal nombre='Volver' clase={'botongenerico mainboton'} link={'servicios'}/>
             
             <Logogeneral/>
 
@@ -27,8 +27,8 @@ function Cena(){
         <h1 className="h1titudesa">MENU CENA</h1>
         <section className="contenido">
             <Menucomidas servicio='SUSHI' precios='$28000' imagen= {imgCenaSushi} />
-            <Menucomidas servicio='PASTA' precios='$20000' imagen= {imgCenaCamarones} />
-            <Menucomidas servicio='CAMARONES' precios='$32000' imagen= {imgCenaPasta} />
+            <Menucomidas servicio='CAMARONES' precios='$20000' imagen= {imgCenaCamarones} />
+            <Menucomidas servicio='PASTA' precios='$32000' imagen= {imgCenaPasta} />
             <Menucomidas servicio='COSTILLAS BBQ' precios='$27000' imagen= {imgCenaCostillasBBQ} />
         </section>
     
