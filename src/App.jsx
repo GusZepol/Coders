@@ -15,6 +15,7 @@ import IngresarVendedor from 'pages/ingresarvendedor';
 import RegistroDeProductos from 'pages/registroDeProductos';
 import Tabla from 'pages/Tabla';
 import DummyPage1 from 'pages/dummypage1';
+import DummyPage2 from 'pages/dummypage2';
 
 
 function App() {
@@ -22,7 +23,10 @@ function App() {
     <div className="App">
         <Router>
             <Switch>
-            <Route path="/dummypage1">
+              <Route path="/dummypage2">
+                <DummyPage2 />
+              </Route>
+              <Route path="/dummypage1">
                 <DummyPage1 />
               </Route>
               <Route path="/Tabla">

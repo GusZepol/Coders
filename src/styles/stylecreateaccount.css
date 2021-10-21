@@ -105,12 +105,7 @@ ul{
     margin-right: 10px;
     margin-top: 9px;
 }
-footer
-{
-	background-color: black;
-	color: white;
-	padding-top: 20px;
-}
+
 footer .barra-footer
 {
 	background-color: grey;
@@ -182,11 +177,7 @@ h3{
 .efecto:hover{
     cursor: pointer;
 }
-:root{
-    --facebook:#3b5999;
-    --instagram:#e4405f;
-    --twitter:#55acee;
-}
+
 .redes-container{
     display: flex;
     align-items: center;

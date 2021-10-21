@@ -3,7 +3,7 @@ import Footerglobal from 'components/footer';
 import Navglobal from 'components/navGlobal';
 import Logogeneral from 'components/logogeneral';
 
-function DummyPage1(){
+function DummyPage2(){
     return(
 
 <div>
@@ -30,4 +30,4 @@ function DummyPage1(){
 </div>
     );
 }
-export default DummyPage1;
+export default DummyPage2;
