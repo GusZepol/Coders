@@ -1,65 +1,57 @@
-import './styles/stylehome.css';
-import './styles/stylecreateaccount.css';
-import './styles/styleAlmuerzo.css';
-import './styles/styleservicios.css'
-import './styles/styleTabla.css'
-import Home from './pages/home';
-import CreateAccount from './pages/createAccount';
-import Almuerzo from './pages/Almuerzo';
+import AuthLayout from "Layouts/AuthLayout";
+import PrivateLayout from 'Layouts/PrivateLayout';
+import PublicLayout from 'Layouts/PublicLayout';
+import Clientes from "pages/admin/Clientes";
+import Admin from 'pages/admin/Index'
+import Productos from "pages/admin/Productos";
+import Index from 'pages/Index';
+import Login from 'pages/Login';
+import Registro from 'pages/Registro';
 import { BrowserRouter as Router, Switch, Route, Link  } from "react-router-dom";
-import Serviciospag from 'pages/servicios';
-import Desayuno from 'pages/desayunos';
-import Cena from 'pages/Cena';
-import IngresarAdministrador from 'pages/ingresarAdministrador';
-import IngresarVendedor from 'pages/ingresarvendedor';
-import RegistroDeProductos from 'pages/registroDeProductos';
-import Tabla from 'pages/Tabla';
-import DummyPage1 from 'pages/dummypage1';
-import DummyPage2 from 'pages/dummypage2';
 
 
 function App() {
   return (
     <div className="App">
-        <Router>
-            <Switch>
-              <Route path="/dummypage2">
-                <DummyPage2 />
-              </Route>
-              <Route path="/dummypage1">
-                <DummyPage1 />
-              </Route>
-              <Route path="/Tabla">
-                <Tabla />
-              </Route>
-              <Route path="/registroDeProductos">
-                <RegistroDeProductos />
-              </Route>
-              <Route path="/ingresarvendedor">
-                <IngresarVendedor />
-              </Route>
-              <Route path="/Cena">
-                <Cena />
-              </Route>
-              <Route path="/desayunos">
-                <Desayuno />
-              </Route>
-              <Route path="/Almuerzo">
-                <Almuerzo />
-              </Route>
-              <Route path="/ingresarAdministrador">
-                <IngresarAdministrador />
-              </Route>
-              <Route path="/createAccount">
-                <CreateAccount />
-              </Route>
-              <Route path="/servicios">
-                <Serviciospag />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
+        <Router>            
+              <Switch>
+                <Route path={['/Admin', '/Admin/Productos', '/Admin/Clientes']}> 
+                  <PrivateLayout>
+                    <Switch>
+                      <Route path='/Admin/Productos'>
+                        <Productos />
+                      </Route>
+                      <Route path='/Admin/Clientes'>
+                        <Clientes />
+                      </Route>
+                      <Route path='/Admin'>
+                        <Admin />
+                      </Route>
+                    </Switch>
+                  </PrivateLayout>
+                </Route>
+                <Route path={['/Login', '/Registro']}>
+                  <AuthLayout>
+                    <Switch>
+                      <Route path='/Login'>
+                        <Login />
+                      </Route>
+                      <Route path='/Registro'>
+                        <Registro />
+                      </Route>
+                    </Switch>
+                  </AuthLayout>
+                </Route>
+                <Route path={['/']}>
+                  <PublicLayout>
+                    <Switch>
+                      <Route path='/'>
+                        <Index />
+                      </Route>
+                    </Switch>
+                  </PublicLayout>
+                </Route>
+              </Switch>               
         </Router>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Footer = () => {
+const Navbar = () => {
     return (
         <div className='bg-red-500'>
-            Footer Gus
+            Navbar Gus
         </div>
     )
 }
 
-export default Footer
+export default Navbar
