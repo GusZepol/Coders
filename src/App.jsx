@@ -8,7 +8,7 @@ import Index from 'pages/Index';
 import Login from 'pages/Login';
 import Registro from 'pages/Registro';
 import { BrowserRouter as Router, Switch, Route, Link  } from "react-router-dom";
-
+import 'styles/styles.css';
 
 function App() {
   return (
